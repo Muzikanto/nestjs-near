@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "paths": {
+      "nestjs-near/lib/*": ["../src/*"]
+    }
+  }
+}
